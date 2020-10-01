@@ -1,0 +1,21 @@
+.imageCrop-container {
+  padding: 24px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  margin-right: 32px;
+}
+
+@media (min-width: 620px) {
+  .content {
+    flex-direction: row;
+  }
+}

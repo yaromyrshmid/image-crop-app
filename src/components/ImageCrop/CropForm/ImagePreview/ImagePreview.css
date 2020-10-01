@@ -1,0 +1,27 @@
+.imagePreview-imageWrapper {
+  border: 1px solid greenyellow;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.imagePreview-cropOverlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-color: #8bc24a66;
+  z-index: 2;
+  box-sizing: border-box;
+  border-style: solid;
+}
+
+.imagePreview-container img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+@media (min-width: 620px) {
+  .imagePreview-container img {
+    max-width: 600px;
+  }
+}
